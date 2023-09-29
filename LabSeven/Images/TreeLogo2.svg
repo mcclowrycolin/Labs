@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 410.28 171.76">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-size: 45px;
+      }
+
+      .cls-2, .cls-3 {
+        font-family: PalatinoLinotype-Bold, 'Palatino Linotype';
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        font-size: 138px;
+      }
+    </style>
+  </defs>
+  <text class="cls-3" transform="translate(126.52 118.39)"><tspan x="0" y="0">Tree</tspan></text>
+  <text class="cls-2" transform="translate(145.26 158.29)"><tspan x="0" y="0">Photography</tspan></text>
+  <circle class="cls-1" cx="62.21" cy="48.75" r="39.62"/>
+  <path class="cls-1" d="m59.39,87.51c.4,1.95.61,3.97.61,6.05,0,16.57-13.43,30-30,30S0,110.12,0,93.55s13.43-30,30-30c14.5,0,26.59,10.28,29.39,23.95"/>
+  <path class="cls-1" d="m64.96,88.26c2.08-14.54,14.58-25.71,29.7-25.71,16.57,0,30,13.43,30,30s-13.43,30-30,30-30-13.43-30-30c0-1.46.1-2.89.3-4.29"/>
+  <path class="cls-1" d="m53.64,103.77c0,20.38,0,40.76,0,61.15h17.14v-61.59"/>
+  <path class="cls-1" d="m58.02,62.65c2.61-.52,5.22-1.04,7.83-1.57"/>
+</svg>

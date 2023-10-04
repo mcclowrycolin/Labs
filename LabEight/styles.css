@@ -1,0 +1,127 @@
+body {
+    background-color: #27213c;
+    margin: 0;
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+header {
+    background-color: rgb(39, 33, 60, .70) ;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+nav>a {
+    color: #e2512d;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    font-weight: 900;
+    display: inline-block;
+}
+nav>a:hover {
+    color: #A33B20;
+    text-decoration: underline;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.animal-background {
+    position: fixed;
+    top: -12rem;
+    width: 200%;
+    left: -51%;
+    height: 50rem;
+    z-index: 1;
+    background-image: url(Images/animal.jpg);
+    background-size: cover;
+}
+section>h2 {
+    text-align: center;
+    padding: 13rem 0;
+    text-shadow: 2px 2px 2px #27213c;
+    background-size: cover;
+    margin: 0;
+}
+section {
+    background-color: #A33B20;
+}
+.animals {
+    background-color: transparent;
+}
+.sloth>h2 {
+    background-image: url(Images/sloth.jpg);
+}
+.elephant>h2 {
+    background-image: url(Images/elephant.jpg);
+}
+.owl>h2 {
+    background-image: url(Images/owl.jpg);
+}
+article {
+    padding: 1rem;
+}
+section span {
+    position: absolute;
+    top: 15rem;
+    font-size: 2rem;
+    left: 48%;
+}
+section>h2 {
+    position: relative;
+}
+.accordion {
+    cursor: pointer;
+}
+article {
+    display: none;
+}
+article.show {
+    display: block;
+}
+section span {
+    transform: rotate(180deg);
+}
+span.rotate {
+    transform: rotate(0);
+}
+.sidelink {
+    background-color: #27213c;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    position: fixed;
+    transform: rotate(90deg);
+    z-index: 1;
+    top: 60%;
+    right: -6rem;
+}
+section>h2 {
+    border-bottom: 2rem solid #e2512d;
+}
+@media (min-width:1000px) {
+    .animal-background {
+        height: 100rem;
+        top: -25%;
+    }
+    section.h2 {
+        padding: 23rem 0;
+        font-size: 3rem;
+        background-position: center;
+    }
+    section span {
+        font-size: 4rem;
+        top: 26rem;
+        left: 48%;
+    }
+    nav {
+        position: absolute;
+        top: 25%;
+        left: 0rem;
+    }
+    article {
+        max-width: 60rem;
+        margin: 0;
+    }
+}

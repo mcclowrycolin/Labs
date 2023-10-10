@@ -1,0 +1,23 @@
+h1 {
+    color: rgb(183, 45, 3);
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+h2 {
+    font-size: larger;
+    font-weight: bolder;
+}
+main {
+        margin:2rem;
+        margin:2rem 3rem;
+        margin:2rem 3rem 4rem;
+        margin:2rem 3rem 4rem 5rem;
+        padding:1rem;
+        padding:1rem 2rem;
+        padding:1rem 2rem 3rem;
+        padding:1rem 2rem 3rem 4rem;
+}
+button:hover {
+    color:blue;
+}

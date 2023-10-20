@@ -1,0 +1,38 @@
+header {
+    background-color: #A57474;
+}
+body {
+    font-family: 'Roboto', sans-serif;;
+    background-color: #211E1F;
+    padding: 20rem;
+}
+
+section {
+    background-color: #A57474;
+}
+nav a {
+    float:none;
+    display: block;
+    color: #211E1F;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #A57474;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+div {
+    float: left;
+}

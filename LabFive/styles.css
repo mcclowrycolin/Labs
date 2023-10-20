@@ -21,6 +21,8 @@ header>nav>a {
     text-decoration: none;
     padding: 1rem;
     border: 1px solid transparent;
+    display: inline-block;
+    /*Missing display:inline-block;*/
 }
 header>nav {
     padding-bottom: 1rem;

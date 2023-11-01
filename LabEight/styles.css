@@ -33,7 +33,7 @@ header {
     width: 200%;
     left: -51%;
     height: 50rem;
-    z-index: 1;/*Change to -1*/
+    z-index: -1;/*Change to -1*/
     background-image: url(Images/animal.jpg);
     background-size: cover;
 }
@@ -105,7 +105,7 @@ section>h2 {
         height: 100rem;
         top: -25%;
     }
-    section.h2 {/*Change . to space*/
+    section h2 {/*Change . to space*/
         padding: 23rem 0;
         font-size: 3rem;
         background-position: center;

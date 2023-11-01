@@ -12,6 +12,7 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     /*Missing background-size:cover;*/
+    background-size: cover;
 }
 h1 {
     display: none;
@@ -37,7 +38,7 @@ nav>a:hover {
 header {
     display:flex;
     flex-wrap: wrap;
-    justify-content: flex-end;/*Justify content should be center*/
+    justify-content: center;/*Justify content should be center*/
 
 }
 nav {

@@ -38,3 +38,34 @@ td {
 tbody tr:hover {
     background-color: #D8D8B6;
 }
+.ragnarok section:nth-child(5) {
+    display: block;
+}
+@media(min-width:800px) {
+    main {
+        display: block;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    .title {
+        grid-column: auto;
+    }
+    section:nth-child(2) {
+        grid-column: auto;
+    }
+    .ragnarok {
+        display: block;
+    }
+    body {
+        display: grid;
+        grid-template-columns: 20rem auto;
+    }
+    header {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .sidenav>a {
+        display: block;
+        text-align: right;
+    }
+}

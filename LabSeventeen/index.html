@@ -5,24 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Eiger</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <script src="scripts.js"></script>
 </head>
 <body>
     <div class="parallax">
         <img src="Images/grindelwald.jpeg">
     </div>
-    <div class="overlay"> </div>
+    <div class="overlay" class="toggle-nav"> </div>
     
     <header>
-        <div class="hamburger">
+        <div class="hamburger" onclick="toggleNav()">
             <hr>
             <hr>
             <hr>
         </div>
-        <nav>
-            <a>About</a>
-            <a>Gallery</a>
-            <a>Climb</a>
-            <a>Contact</a>
+        <nav class="toggle-nav">
+            <a href="#about">About</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#climb">Climb</a>
+            <a href="#contact">Contact</a>
         </nav>
         <h1>Eiger</h1>
         <div class="social">
@@ -50,7 +51,7 @@
         <section class="gallery" id="gallery">
             <h3>Gallery</h3>
             <div>
-                <img src="Images/Gallery/alpine-panorama.jpeg">
+                <img src="Images/Gallery/alpine-panorama.jpeg" class="panorama">
                 <img src="Images/Gallery/alpine2.jpeg">
                 <img src="Images/Gallery/eiger2.jpeg">
                 <img src="Images/Gallery/gorge-rock.jpeg">
@@ -68,10 +69,43 @@
                 </p>
                 <a class="button" content="Climb It" href></a>
             </div>
+            <div>
+                <img src="Images/eiger.jpeg">
+                <h4>North Face</h4>
+                <h5>1938 Route: ED2 (G14) V-, A0, 60Â°, 1800m, one to three or more days.</h5>
+                <p>Since the first ascent of the face in 1938 there have been numerous new routes and variations on the face including many that end on the West Ridge or NE Face and even several Sport Climbing routes low on the face (Eiger NF routes). Still, most climbers seem to be most familiar with and aspire to the original classic 1938 route. But, note that in recent years much of the snow and the ice has melted back so that late in the season the face is often almost bare.</p>
+            </div>
+            <div>
+                <img src="Images/jungfraujoch.jpeg">
+                <h4>Mittellegi Ridge</h4>
+                <h5>D (G5) with IV & fixed ropes, 4 to 8 hours from Mittellegi Hut</h5>
+                <p>The Mittellegi Ridge is probably the most popular route on the Eiger. It is a fantastic steep knife edged ridge offering excellent climbing with little or no objective danger. Yuko Maki with Fritz Amatter, Samuel Brawand and Fritz Steuri made the first ascent of the Mittellegi Ridge on 10 September 1921.</p>
+            </div>
+        </section>
+        <section class="contact" id="Name" form>
+            <h3>Contact</h3>
+            <label id="name">Name</label>
+            <input type="text" id="name">
+            <label id="email">Email</label>
+            <input type="email" id="email">
+            <textarea id="submit">Type message here...</textarea>
+            <input type="submit" id="submit">
         </section>
 
     </main>
     <footer>
+        <span>Copyright <script>document.write(new Date().getFullYear());</script></span>
+        <div class="social">
+            <a href="https://www.facebook.com/">
+                <img src="Images/2021_Facebook_icon.svg.png" alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="Images/Instagram_icon.png" alt="Instagram">
+            </a>
+            <a href="https://www.pinterest.com/">
+                <img src="Images/pinterest.png" alt="Pinterest">
+            </a>
+        </div>
 
     </footer>
     

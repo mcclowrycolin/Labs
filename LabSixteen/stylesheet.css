@@ -9,7 +9,7 @@ img {
 }
 header {
     background: rgb(9,2,29);
-    background: linear-gradient(180deg), rgba(9,2,29,1) 0%, rgba(9,2,29,0) 100%;
+    background: linear-gradient(180deg, rgba(9,2,29,1) 0%, rgba(9,2,29,0) 100%);
     position: fixed;
     width: 100%;
     padding: 1rem;
@@ -23,6 +23,7 @@ header a:hover {
 }
 .headline {
     position: relative;
+    /*Missing 1 before rem below*/
     width: calc(100vw - rem);
     height: 80vh;
     overflow: hidden;
@@ -69,6 +70,7 @@ header a:hover {
 @keyframes rise {
     from {
         bottom: 0;
+        /*it should be rotate(0) scale(1) below*/
         transform: rotate(180deg) scale(2);
     }
     to {
@@ -80,6 +82,7 @@ header a:hover {
     z-index: 1;
     transform-origin: center bottom;
 }
+/*Selector on next line should be .rover:after to apply the animation to the disc image*/
 .disc {
     animation-name: disc;
     animation-duration: 2s;
@@ -87,12 +90,13 @@ header a:hover {
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
+/*Remove animation- from before disc to select the name of your animation*/
 @keyframes animation-disc{
     from{
         transform: rotate(-5deg);
     }
     To {
-        transform: rotate (-33deg);
+        transform: rotate(-33deg);
         
     }
 }
@@ -108,6 +112,7 @@ header a:hover {
 .rover:hover {
     animation-play-state: paused;
 }
+/*Missing keyframe for your rover animation.*/
 header {
     z-index: 3;
 }
@@ -125,6 +130,5 @@ h2 {
     display: grid;
     grid-column-start: 1fr 1fr 1fr;
     gap: 2rem;
-    
-
 }
+/*Missing css for rest of page*/

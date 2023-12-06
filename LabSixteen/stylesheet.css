@@ -23,8 +23,7 @@ header a:hover {
 }
 .headline {
     position: relative;
-    /*Missing 1 before rem below*/
-    width: calc(100vw - rem);
+    width: calc(100vw - 1rem);
     height: 80vh;
     overflow: hidden;
     padding: 0;
@@ -70,8 +69,7 @@ header a:hover {
 @keyframes rise {
     from {
         bottom: 0;
-        /*it should be rotate(0) scale(1) below*/
-        transform: rotate(180deg) scale(2);
+        transform: rotate(0deg) scale(1);
     }
     to {
         bottom: 75%;
@@ -82,16 +80,14 @@ header a:hover {
     z-index: 1;
     transform-origin: center bottom;
 }
-/*Selector on next line should be .rover:after to apply the animation to the disc image*/
-.disc {
+.rover:after {
     animation-name: disc;
     animation-duration: 2s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-/*Remove animation- from before disc to select the name of your animation*/
-@keyframes animation-disc{
+@keyframes disc{
     from{
         transform: rotate(-5deg);
     }

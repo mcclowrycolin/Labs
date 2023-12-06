@@ -1,0 +1,44 @@
+section {
+    column-count: 2;
+    column-width: 33% 67%;
+}
+footer {
+    column-count: 3;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color :darkgoldenrod;
+}
+nav a {
+    float: none;
+    display: block;
+    color: darkgoldenrod;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: wavy;
+}
+nav a:hover {
+    background-color: beige;
+    color: black;
+}
+header {
+    text-align: center;
+}
+.icon:hover {
+    animation-name: circle;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+@keyframes circle {
+    from{
+        rotate:(0deg);
+    }
+    To{ 
+        rotate:(180deg);
+    }
+}

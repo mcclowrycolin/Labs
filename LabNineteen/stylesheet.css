@@ -1,0 +1,19 @@
+body {
+    background-color: #fdf6e4;
+    font-family: 'Eater', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+h2 {
+    color: #f9545b;
+}
+section {
+    background-color: white;
+    padding: 5rem;
+}
+.bread {
+    background-image: url(Images/croissant.jpg);
+}
+nav {
+    color: #f9545b;
+}

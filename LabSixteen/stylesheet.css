@@ -69,7 +69,7 @@ header a:hover {
 @keyframes rise {
     from {
         bottom: 0;
-        transform: rotate(0deg) scale(1);
+        transform: rotate(0) scale(1);
     }
     to {
         bottom: 75%;
@@ -100,15 +100,24 @@ header a:hover {
     z-index: 1;
     animation-name: rover;
     animation-duration: 2s;
-    animation-timing-function: linear;
-    animation-delay: .5s;
+    animation-timing-function: ease-in;
+    animation-delay: none;
     animation-iteration-count: infinite;
     animation-direction: normal;
 }
 .rover:hover {
     animation-play-state: paused;
 }
-/*Missing keyframe for your rover animation.*/
+@keyframes rover {
+    from {
+        transform: translateX(-350px);
+    }
+    to {
+        transform: translateX(350px);
+    }
+
+}
+
 header {
     z-index: 3;
 }
@@ -127,4 +136,42 @@ h2 {
     grid-column-start: 1fr 1fr 1fr;
     gap: 2rem;
 }
-/*Missing css for rest of page*/
+.robots figure {
+    justify-self: center;
+}
+iframe {
+    display: block;
+    margin: 1rem auto 3rem;
+    max-width: 100%;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1rem 1fr;
+}
+.grid hr {
+    grid-area: 1/2/10/3
+}
+.grid p {
+    margin: 1rem;
+}
+.grid h3 {
+    margin: 1rem;
+    justify-self: right;
+}
+.maps {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+figcaption, h3 {
+    transition: color .2s ease-in-out;
+}
+figcaption:hover, h3:hover {
+    color: #d15f44;
+}
+@media (min-width:600px) {
+    
+}
+section {
+    padding: 1rem 5rem;
+}

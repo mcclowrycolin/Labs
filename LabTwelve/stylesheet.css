@@ -27,7 +27,7 @@ fieldset {
 form {
     background-color: rgba(0, 0, 0, .9);
     padding: 1rem 2rem;
-    /*Missing max-width:calc(90% - 4rem);*/
+    max-width:calc(90% - 4rem);
     width: 50rem;
     margin: 1rem auto;
 }

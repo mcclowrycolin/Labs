@@ -1,0 +1,17 @@
+header>img {
+    width: 50px;
+}
+section>img {
+    width: 250px;
+}
+header {
+    background-color: #f9545b;
+    color: white;
+}
+section>h3 {
+    color:#f9545b;
+}
+.submit {
+    background-color: #f9545b;
+    color: white;
+}

@@ -103,7 +103,7 @@ header a:hover {
     animation-timing-function: ease-in;
     animation-delay: none;
     animation-iteration-count: infinite;
-    animation-direction: normal;
+    animation-direction: normal;/*Change to alternate, then it will alternate back and forth between the beginning and end of animation*/
 }
 .rover:hover {
     animation-play-state: paused;
@@ -133,6 +133,7 @@ h2 {
 }
 .robots {
     display: grid;
+    /*grid-template-columns not grid-column-start*/
     grid-column-start: 1fr 1fr 1fr;
     gap: 2rem;
 }

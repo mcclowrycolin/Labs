@@ -53,10 +53,11 @@ footer a {
     margin: .25rem;
 }
 section.headline {
+    /*Missing Images/ in the url. */
     background-image: url(cafe.png);
     background-size: cover;
     background-color: rgb(23,0,65);
-    padding: 5rem, 2rem;
+    padding: 5rem, 2rem;/*Remove comma*/
     color: #fff;
 }
 .headline h2 {
@@ -209,6 +210,7 @@ form {
 .add-button>span:hover {
     color: #3b325a;
 }
+/*min-width not max-width*/
 @media screen and (max-width: 1000px){
      .gallery img {
         max-width: 50vw;
@@ -223,6 +225,7 @@ form {
         gap: 1rem;
      }
      .about h2 {
+        /*This should be grid-column:1/3;*/
         grid-template-columns: 2fr 1fr;
      }
      .about img:nth-child(3) {

@@ -9,59 +9,66 @@
 </head>
 <header>
     <h1>Brunch</h1>
-    <a>
+    <a><!--Add href=index.html to the <a>-->
         <img src="Images/logo.svg">
+
         <nav>
             <a href="menu.html">Menu</a>
             <a href="about.html">About</a>
             <a href="order.html">Order</a>
         </nav>
-    </a>
+    </a><!--Move to line 13.-->
 </header>
-<body>
+<body><!--Move to after line 8-->
     <main>
         <section class="order">
             <form>
                 <h2>Place Order</h2>
                 <div class="cloner">
                     <div class="container"></div>
-                    <template><div class=row></div></template>
+                    <template><div class=row>
+                        <label>Coffee</label>
+                        <select>
+                            <option value="drip-coffee">Drip Coffee</option>
+                            <option value="cafe-au-lait">Cafe Au Lait</option>
+                            <option value="americano">Americano</option>
+                            <option value="cappuccino">Cappuccino</option>
+                            <option value="latte">Latte</option>
+                            <option value="chai">Chai</option>
+                            <option value="matcha">Matcha</option>
+                            <option value="cold-brew">Cold Brew</option>
+                            <option value="mocha">Mocha</option>
+                            <option value="hot-chocolate">Hot Chocolate</option>
+                            <option value="shot-in-the-dark">Shot In The Dark</option>
+                            <option value="cafe-con-miel">Cafe con Miel</option>
+                            <option value="breve">Breve</option>
+                            <option value="dirty-chai">Dirty Chai</option>
+                            <option value="peppermint-mocha">Peppermint Mocha</option>
+                            <option value="affogato">Affogato</option>
+
+                        <label>Size</label>
+                        <select>
+                            <option value="small">Small 12 oz.</option>
+                            <option value="large">Large 16 oz.</option>
+                        </select>
+                        <label>Quantity</label>
+                        
+                        </select><!--Move to line 48-->
+                        <!--Missing delete <a>. Check instructions.-->
+                    </div></template>
                     <div>
                         <a class="add-button">+ Add Coffee</a>
                     </div>
-                <h2>Place Order</h2>
+                </div>
                 <div class="cloner">
                     <div class="container"></div>
-                    <template><div class=row></div></template>
+                    <template><div class=row>
+                        <!--Missing the waffle inputs, selects, labels and delete button-->
+                    </div></template>
                     <div>
                         <a class="add-button">+ Add Waffle</a>
                     </div>
-                <label>Coffee</label>
-                <select>
-                    <option value="drip-coffee">Drip Coffee</option>
-                    <option value="cafe-au-lait">Cafe Au Lait</option>
-                    <option value="americano">Americano</option>
-                    <option value="cappuccino">Cappuccino</option>
-                    <option value="latte">Latte</option>
-                    <option value="chai">Chai</option>
-                    <option value="matcha">Matcha</option>
-                    <option value="cold-brew">Cold Brew</option>
-                    <option value="mocha">Mocha</option>
-                    <option value="hot-chocolate">Hot Chocolate</option>
-                    <option value="shot-in-the-dark">Shot In The Dark</option>
-                    <option value="cafe-con-miel">Cafe con Miel</option>
-                    <option value="breve">Breve</option>
-                    <option value="dirty-chai">Dirty Chai</option>
-                    <option value="peppermint-mocha">Peppermint Mocha</option>
-                    <option value="affogato">Affogato</option>
-                <label>Size</label>
-                <select>
-                    <option value="small">Small 12 oz.</option>
-                    <option value="large">Large 16 oz.</option>
-                </select>
-                <label>Quantity</label>
-                
-                </select>
+                </div>
 
             </form>
         </section>

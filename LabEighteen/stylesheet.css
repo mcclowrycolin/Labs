@@ -1,12 +1,13 @@
 header {
     background-image: url(Images/walls.jpg);
     background-size: auto;
+    overflow: hidden;
 }
 .hdr{
     transition-property: transform;
     transition-duration:.5s;
     transition-timing-function:ease-in;
-    transition-delay: none;
+    transition-delay: none;/*Delete this don't need it if no delay*/
     border: darkgoldenrod;
 }
 .hdr:hover {
@@ -14,13 +15,13 @@ header {
 }
 section {
     column-count: 2;
-    column-width: 33% 67%;
+    column-width: 33% 67%;/*Delete this. It is invalid. If you want to apply a column-width you need to add it to the elements inside of this container. However looks the same with out it.*/
     column-rule: 3px solid white;
     column-gap: 1.5rem;
 }
 footer {
     column-count: 3;
-    column-width: 33% 33% 33%;
+    column-width: 33% 33% 33%;/*Delete this. It is invalid. If you want to apply a column-width you need to add it to the elements inside of this container. However looks the same with out it.*/
     column-rule: 3px solid white;
     column-gap: 1.5rem;
 }

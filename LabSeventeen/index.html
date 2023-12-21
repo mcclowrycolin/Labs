@@ -35,8 +35,7 @@
     <main>
         <section class="call-to-action">
             <h2>The Eiger</h2>
-            <!--href="#contact"-->
-            <a href #contact class="button">Explore the Mountains</a>
+            <a href="#contact" class="button">Explore the Mountains</a>
         </section>
         <section class="mountains" id="about">
             <h3>The Mountain</h3>
@@ -79,18 +78,16 @@
                 <a class="button" href>Climb It</a>
             </div>
         </section>
-        <section class="contact" id="Name"><!--id="contact"-->
-            <!--Add form tag here-->
-            <h3>Contact</h3>
-            <!--Should be for="name" on the label-->
-            <label id="name">Name</label>
+        <section class="contact" id="contact">
+            <form>
+            <h3>Contact</h3>>
+            <label for="name" id="name">Name</label>
             <input type="text" id="name">
-            <!--Should be for="email" on the label-->
-            <label id="email">Email</label>
+            <label for="email" id="email">Email</label>
             <input type="email" id="email">
             <textarea id="submit">Type message here...</textarea>
             <input type="submit" id="submit">
-            <!--Add closing </form> here-->
+            </form>
         </section>
 
     </main>

@@ -162,8 +162,7 @@ footer {
 .hamburger {
     display: none;
 }
-/*Should be header nav on next line.*/
-.hamburger nav {
+.header nav {
     position: static;
     background-color: unset;
     width: unset;
@@ -178,15 +177,12 @@ header nav a:hover {
     text-decoration: underline;
 }
 .social {
-    /*padding-right:2rem;*/
-    padding: right 2rem;
+    padding-right: 2rem;
 }
 h1 {
-    /*margin-left: -16rem;*/
-    margin: left -16rem;
+    margin-left: -16rem;
 }
 .call-to-action {
-    /*Need space on both sides of minus sign*/
     padding: 20rem calc((100%-900px)/2) 5rem;
 
 }
@@ -223,9 +219,9 @@ p, h3 {
     grid-gap: 1rem;
 }
 .routes h3 {
-    /*To use grid-template-areas you need to put it on the container which is .routes. You also need three h3 in the first quotes. One for each column of the grid. Then you can add grid-area: h3; to the .routes h3. */
-    grid-template-areas: "h3"
-                       "div div div" ;
+    grid-template-areas: 
+    "h3 h3 h3"
+    "div div div" ;
 }
 form {
     max-width: 500px;
